@@ -1,0 +1,389 @@
+body{
+        background: #f1f1f1;
+
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 99%;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.container{
+    top: 0px;
+      height: 100vh;
+
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+.card{
+    position: absolute;
+    top: 150px;
+    left: 690px;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    /* letter-spacing: 2px; */
+}
+.card1 {
+    position: absolute;
+    top: 250px;
+    left: 680px;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    /* letter-spacing: 2px; */
+}
+
+.card2 p{
+    position: absolute;
+    background-color: black;
+    color: white;
+    top:510px;
+    left: 30px;
+    padding: 2px;
+}
+i{
+     position: absolute;
+     top:520px;
+     right: 30px;
+     color: white;
+     font-style: italic;
+     /* z-index: -1; */
+}
+
+
+.card4 p{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    margin-left: 660px;
+}
+
+.card5 p{
+    /* display: block; */
+    top:80%;
+    /* text-align: center; */
+     position: absolute;
+    left:500px;
+    right: 450px;
+    font-style:inherit;
+} 
+
+.card6 p{
+    /* display: block; */
+    top:92%;
+    /* text-align: center; */
+     position: absolute;
+    margin-left:490px;
+    margin-right: 450px;
+    font-style:inherit;
+} 
+
+
+.card7 p{
+   top:103%;
+   position: absolute;
+    margin-left:500px;
+    margin-right: 500px;
+    font-style: italic;
+}
+
+.card8 p{
+   top:110%;
+   position: absolute;
+    margin-left:500px;
+    margin-right: 500px;
+    font-style: inherit;
+}
+
+.card9 img{
+    position: absolute;
+    top: 120%;
+    left: 33%;
+    right: 40%;
+    width: 500px;
+    height: 300px;
+}
+.card10 p{
+    position: absolute;
+    top: 160%;
+     left: 35%;
+    right: 40%;
+        font-style: inherit;
+}
+.card11 p{
+    position: absolute;
+    top: 165%;
+     left: 35%;
+    right: 40%;
+        font-style: inherit;
+}
+
+.card12 p{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 10px;
+    top:175%;
+    text-align: center;
+    margin-left: 660px;
+}
+
+.container2{
+    position: relative;
+        justify-content: space-between; /* space between */
+
+    width:580px;
+    height:600px;
+    border: 1px solid whitesmoke;
+    /* top:210% */
+        margin: 0 auto;
+margin-top: 60%;
+    
+}
+
+
+.tab {
+    position: absolute;
+    width: 96%;
+    /* flex: 1; */
+    /* text-align: center; */
+    padding: 12px;
+    /* cursor: pointer; */
+    background: #fdfaf6;
+    /* font-weight: bold; */
+}
+
+.menu-content {
+    position: absolute;
+
+    padding: 30px;
+           /* margin: 0 auto; */
+margin-top: 10%;
+margin-left: 0%;
+
+}
+
+.menu-content h3 {
+    margin-bottom: 10px;
+}
+
+.menu-content p {
+    color: #777;
+    margin-bottom: 35px;
+    line-height: 1.6;
+}
+
+.menu-content span {
+    float: right;
+}
+ .menu-content img{
+    width: 500px;
+    height: 300px;
+    top: 10%;
+} 
+
+.card13 img{
+    top:270%;
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    margin-left: 420px;
+}
+.card13 p{
+    top:310%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    text-align: center;
+        margin-left: 640px;
+        padding: 4px;
+
+}
+
+.card14 p{
+    position: absolute;
+    left: 428px;
+    top:320%
+    
+    
+}
+.card14 img{
+    position: absolute;
+    width: 590px;
+    height: 300px;
+    top: 325%;
+    margin-left: 420px;
+
+}
+
+.card15 {
+    position: absolute;
+    width: 750px;
+    margin: 40px auto;
+    padding: 20px;
+    /* background: #fdfaf6; */
+    color: #000;
+    line-height: 1.8;
+    margin-top: 820px;
+    margin-left: 405px;
+}
+
+.aaa {
+    background: #000;
+    color: #fff;
+    padding: 4px 8px;
+    margin-right: 8px;
+    font-weight: bold;
+        /* margin-right: 200px; */
+
+}
+
+.bbb {
+    position: absolute;
+    margin-top: 9px;
+}
+.card16 input {
+    position: absolute;
+    top:3120px;
+    margin-left: 420px;
+    width: 600px;
+    height: 45px;
+    font-size: medium;
+}
+
+.card17 input {
+    position: absolute;
+    top:3200px;
+    margin-left: 420px;
+    width: 600px;
+    height: 45px;
+    font-size: medium;
+}
+
+.card18 input {
+    position: absolute;
+    top:3280px;
+    margin-left: 420px;
+    width: 600px;
+    height: 45px;
+    font-size: medium;
+}
+/* .form-container {
+    width: 750px;
+    margin: 40px auto;
+}
+
+.form-container input {
+ position: absolute; 
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-top: 200px;
+}
+
+.form-container button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute; 
+    top: 3223px;
+}
+  */
+
+.card18 input {
+    position: absolute;
+    top:3280px;
+    margin-left: 420px;
+    width: 600px;
+    height: 45px;
+    font-size: medium;
+}
+.card19 input {
+    position: absolute;
+    top:3355px;
+    margin-left: 420px;
+    width: 600px;
+    height: 45px;
+    font-size: medium;
+}
+
+.card19 button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute; 
+    top: 3425px;
+    margin-left: 420px;
+}
+
+.card19 button:hover {
+    opacity: 0.85;
+}  
+
+
+/* .card20 p{
+    position: absolute;
+    top: 9500px;
+} */
+
+/* 
+ .card20 p a {
+    position: absolute;
+    padding: 25px 0;
+    background: #f1f1f1;
+    font-size: 14px;
+    top: 3500px;
+    margin-left: 670px;
+}  */ 
+
+.card20 {
+    position: absolute;
+    text-align: center;
+    padding: 15px 0;
+    /* background: #f1f1f1; */
+        top: 3500px;
+        left: 670px;
+
+}
+
+.card20 p {
+    /* position: absolute; */
+    font-size: 14px;
+        top: 3425px;
+
+}
+
+.card20 p a {
+    /* position: absolute; */
+    color: black;
+    text-decoration: underline;
+        top: 3425px;
+
+}
